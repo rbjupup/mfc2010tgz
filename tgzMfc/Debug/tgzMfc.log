@@ -1,9 +1,58 @@
-﻿生成启动时间为 2016/11/22 星期二 下午 4:28:53。
-     1>项目“D:\rbj\now\tgzDecompression\myproject\tgzMfc\tgzMfc\tgzMfc.vcxproj”在节点 2 上(clean 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\tgzMfc.lastbuildstate”。
-     1>已完成生成项目“D:\rbj\now\tgzDecompression\myproject\tgzMfc\tgzMfc\tgzMfc.vcxproj”(clean 个目标)的操作。
+﻿生成启动时间为 2016/11/30 8:58:38。
+     1>项目“C:\Users\ls\Documents\GitHub\mfc2010tgz\tgzMfc\tgzMfc.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\tgzMfc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\rbj\app\VS2010\VC\bin\CL.exe /c /I"..\tgzMfc\ZLib\zlib128-dll\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\tgzMfc.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\rbj\app\VS2010\VC\bin\CL.exe /c /I"..\tgzMfc\ZLib\zlib128-dll\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\tgzMfc.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tgzMfc.cpp tgzMfcDlg.cpp untgz.cpp
+         untgz.cpp
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(196): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(216): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(440): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(482): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\ls\documents\github\mfc2010tgz\tgzmfc\untgz.cpp(490): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\rbj\app\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+         tgzMfcDlg.cpp
+         tgzMfc.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\tgzMfc.res" tgzMfc.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\tgzMfc.exe.embed.manifest.res" Debug\tgzMfc_manifest.rc 
+       Link:
+         d:\rbj\app\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\tgzMfc\ZLib\zlib128-dll\lib" /MANIFEST /ManifestFile:"Debug\tgzMfc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.lib" /MACHINE:X86 Debug\tgzMfc.res
+         Debug\tgzMfc.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\tgzMfc.obj
+         Debug\tgzMfcDlg.obj
+         Debug\untgz.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\tgzMfc.exe.embed.manifest" /manifest Debug\tgzMfc.exe.intermediate.manifest d:\rbj\app\VS2010\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\tgzMfc.exe.embed.manifest.res" Debug\tgzMfc_manifest.rc 
+       LinkEmbedManifest:
+         d:\rbj\app\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\tgzMfc\ZLib\zlib128-dll\lib" /MANIFEST /ManifestFile:"Debug\tgzMfc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.lib" /MACHINE:X86 Debug\tgzMfc.res
+         Debug\tgzMfc.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\tgzMfc.obj
+         Debug\tgzMfcDlg.obj
+         Debug\untgz.obj
+         tgzMfc.vcxproj -> C:\Users\ls\Documents\GitHub\mfc2010tgz\Debug\tgzMfc.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\tgzMfc.unsuccessfulbuild”。
+         正在对“Debug\tgzMfc.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\ls\Documents\GitHub\mfc2010tgz\tgzMfc\tgzMfc.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.11
+已用时间 00:00:05.82
